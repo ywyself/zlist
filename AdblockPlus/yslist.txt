@@ -1,0 +1,78 @@
+[Adblock Plus 2.0]
+! Checksum:
+! Version: 201806010350
+! Title: YsBlockList
+! EasyList China and EasyList combination subscription
+! Last modified: 01 Jun 2018 03:50 UTC
+! Expires: 2 days
+! Homepage: http://cyq.ywyself.cn/
+! License: for all
+!
+! *** yslist:http://cyq.ywyself.cn/yslist.xt ***
+!
+!
+!-----------------------General advert blocking filters-----------------------!
+
+!---
+baidu.com##div[tpl="right_recommends"][class="result-op xpath-log"]
+baidu.com##div[tpl="right_recommends_merge"]
+
+!--- CSDN --- start
+csdn.net/sp/blog.php?type=*
+blog.csdn.net##div[class='section']
+blog.csdn.net##div[class*='edu-promotion']
+blog.csdn.net##div[class^="advert"]
+blog.csdn.net##div[class='pulllog-box'][style="display: block;"]
+blog.csdn.net##.append_mark_img
+blog.csdn.net##img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAQCAYAAAABOs/SAAAABGdBTUEAALGPC/xhBQAAAhpJREFUOBHFVU2L2lAUHU0nExNHbRq1BkSrSFH8QBdu3QnuxYUr3bj2f/gHRPwrdmVdCLqxIK0KighqWz+mNVPaavtuhgtqnpnposyD5N53z7k57yX33RhKpdK7q2cYxmfQVCUfFU6n06/z+fwbvQWaTCYml8t5gBOJRKzZbFb19XJenIPhcNgaj8dfYZxlWSYWizkZhjFgDGyr1VqMRqMd+JlMRrbZbDd2u/3G4XBwTqeTBx8wGLvd7reiKPuH2cNdI+zz+W4FQbjudrtfkNjr9Vboo91sNr/A9/v9QjKZlFer1X2xWHxLclnIBx+5nU5n0Wg0FjgHqxGG4Hw+V9rt9lfw9YbRaDQUCoVgtVr9MB6P1d2TRYjRaFSq1+uf9HKpwnoJx5jL5eKazebM4/EIcAHmdrvNkiSZUqmU45g7HA6/zWaze4xphDmOY7bb7U8k6FmLxXItiiJ3zNnv938mk8mdLMvqQhBbLpc/dIXNZjM7nU6/Y4Ke7ff7d3AFAoFbUoQnxYd5h8PhCjg4R6vZMQiTQnnSjvEhpAmFB4OBpgABD4VCUrlcfo9ctBphcgx4eC1IeKqt1WofadxKpSLS4ifC5Ltw5Bsd1uu1elRoCZdiiUTiJQ2DyqfFT4SDwaCVnNnPNOJjMdKxqDs7bzz4HMP5T4Lneea8yyD5kvV6vTw5xwoNv4RpevW/ioLYJVE9TCNMW/X/iP0FJ9WyNfNE5tcAAAAASUVORK5CYII="]
+||edu.csdn.net/topic/detail/web1
+||edu.csdn.net/topic/detail/
+!--- CSDN --- end
+
+!--- cnblog --- start
+www.cnblogs.com##div[id^="ad_"]
+www.cnblogs.com##div[id^="under_post_"]
+www.cnblogs.com##div[id="blog_post_info"]>div[id="green_channel"]
+cnblogs.com##div[class*="_ad_block"]
+!--- cnblog --- end
+!--- 新浪博客 --- start
+blog.sina.com.cn##.CP_w
+blog.sina.com.cn##div[id$="_panel"][style^="background-color"]
+!--- 新浪博客 --- end
+!---
+cnbeta.com##div[style^="display:block !important;position:fixed;bottom:0;"]
+zhihu.com##div[class="AdblockBanner"]
+!---
+w3cschool.cn##.widget-main
+!---
+dl.pconline.com.cn##.btn.dl-btn.new-dl-btn
+dl.pconline.com.cn###JdlBtn
+dl.pconline.com.cn##.editRecom
+dl.pconline.com.cn##.dl-area
+
+!---
+mail.163.com##div[id="mainCnt"][class="main-inner"]
+mail.163.com/appcenter/ftentry.do
+news.china.com##.epbWrap
+news.china.com##.adsame.padtop10
+ent.china.com##.epbWrap
+gitee.com##.float-left-box
+jj20.com##.wzfz.loc
+www.importnew.com##div[id="text-19"]
+www.importnew.com##div[id="text-18"]
+www.importnew.com##div[id="text-13"]
+nokia.com##.cookie_container.cookie_container--open.bg-gray-5
+new.qq.com###mercury
+new.qq.com##.M_TIPS
+sourceforge.net##div[class="l-side-column"]
+aliyun.com##div[data-name="www-aliyun-common-banner"]
+www.runoob.com##div[class^="ad-"]
+www.landiannews.com##div[class*="asd-index"]
+tampermonkey.net##.ad-+*
+tampermonkey.net##div[class="adsbygoogle"]
+
+||www1.pconline.com.cn/download/shouyoudiannaoban.png
+http://sjs.sinajs.cn/xblogtheme/js/blog680-min.js
+https://tracker.appadhoc.com/tracker
+https://gsp0.baidu.com
+https://experiment.appadhoc.com/*
